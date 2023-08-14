@@ -1,4 +1,4 @@
-#Git:
+# Git:
 
 Branch: main
-Remote: master
+Remote: origin
