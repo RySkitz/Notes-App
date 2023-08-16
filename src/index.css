@@ -31,6 +31,9 @@ body{
     display: grid;
     gap: 5px;
 }
+.Input--Text{
+    padding: 20px 10px !important;
+}
 .Input--Container input {
     padding: 10px;
     background-color: none;
@@ -38,7 +41,6 @@ body{
     outline: transparent;
     border: none;
 }
-
 .Title {
     font-size: 1.25em;
     margin-bottom: 10px;
@@ -46,11 +48,21 @@ body{
 .Text{
     font-size: 1em;
 }
-.Notes button{
+.Input--Submit {
     border: none;
     padding: 10px;
     background-color: #ebf1ff;
     border-radius: 5px;
     font-family: var(--inter);
     cursor: pointer;
+    transition: 500ms;
+}
+.Input--Submit:hover {
+    background-color: #dce2f0;
+    transition: 500ms;
+}
+.Input--Submit:active{
+    background-color: #a5a9b3;
+    transition: 500ms;
+
 }

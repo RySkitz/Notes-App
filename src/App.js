@@ -36,8 +36,7 @@ export default function App(){
 
     }
 
-
-    const elements = notesData.map(data => {
+    const elements = notesData.map((data) => {
         return (
             <Card 
                 key={data.title}
@@ -65,6 +64,7 @@ export default function App(){
                         onChange={textListner}
                     />
                     <button
+                        className="Input--Submit"
                         onClick={AddNote}
                     > 
                     Add note </button>
